@@ -1,0 +1,160 @@
+station_id,name,latitude,longitude,town,num_connections,connector_type,power_kw
+309267,JW Marriott,12.97228768658023,77.59492658243641,Bengaluru,1,CCS (Type 2),60.0
+309268,Sundaram Motors,12.973845154518216,77.59597891080779,Bengaluru,1,CCS (Type 2),90.0
+309097,ibis Bengaluru City Centre,12.96751,77.5939,Bengaluru,1,CCS (Type 2),60.0
+309099,ITC Gardenia Bengaluru,12.96728,77.59552,Bengaluru,1,CCS (Type 2),30.0
+309270,BMW Navnit Motors,12.97259859569182,77.59908118684689,Bengaluru,1,CCS (Type 2),24.0
+103614,Ather Grid Point - 6000 Miles to Isle of Man,12.9756828,77.5982326000001,Bengaluru,1,Type M,3.0
+309269,Hotel Southern Star,12.974727464060706,77.59942186908683,Bengaluru,1,CCS (Type 2),30.0
+309266,Audi Central,12.97001545590929,77.6004747835533,Bengaluru,1,CCS (Type 2),60.0
+103746,BESCOM Head Office,12.9755314120859,77.5883364581665,Bengaluru,2,CHAdeMO,
+309098,Divyasree Chambers,12.96192,77.59922,Bengaluru,1,CCS (Type 2),60.0
+309271,Forum Rex Walk,12.972458,77.606851,Bengaluru,4,CCS (Type 2),30.0
+309272,Vivanta by Taj Residency Road,12.97248838809081,77.60854161055966,Bengaluru,2,CCS (Type 2),30.0
+309319,Freedom Park,12.97859,77.58139,Bengaluru,1,CCS (Type 2),25.0
+472508,Charging station,12.960850473046193,77.58182473802742,,1,CCS (Type 2),
+309273,Welcomhotel Richmond Road,12.968709974182843,77.61440938105488,Bengaluru,1,CCS (Type 2),60.0
+308804,The Rialto Hotel,12.98026,77.57661,Bengaluru,1,Type 2 (Tethered Connector) ,7.0
+308757,Renaissance Bengaluru Race Course Hotel,12.98439,77.57639,Bengaluru,1,CCS (Type 2),60.0
+309293,"The Oberoi, Bengaluru",12.972788253204087,77.6184047836071,Bengaluru,1,CCS (Type 2),60.0
+309294,Taj MG Road,12.97331434540071,77.6195781000381,Bengaluru,2,CCS (Type 2),30.0
+308805,Radisson Bengaluru City Center,12.97622,77.61948,Bengaluru,1,Type 2 (Tethered Connector) ,22.0
+309295,The Park Hotel,12.973940635420362,77.61988884794027,Bengaluru,2,CCS (Type 2),30.0
+309296,Carzonrent,12.974519436687544,77.62146110718822,Bengaluru,2,CCS (Type 2),60.0
+103606,Ather Grid Point - Moto Store & Cafe,12.9875541362772,77.6208706943579,Bangalore,1,Unknown,3.0
+308806,RMZ MILLENIA,12.98247,77.62461,Bengaluru,1,CCS (Type 2),24.0
+309320,"Global Mall, Okalipuram",12.98211,77.56317,Bengaluru,2,CCS (Type 2),30.0
+308809,Nexus Mall Koramangala,12.93484,77.6118,Bengaluru,2,CCS (Type 2),24.0
+103613,Ather Grid Point - Sunny Side Bistro,13.0018168,77.6235465,Bengaluru,1,Unknown,3.0
+308803,GT World Mall,12.97396,77.55157,Bengaluru,1,Type 2 (Tethered Connector) ,22.0
+103616,Ather Space,12.9756892941475,77.6412298094218,Bengaluru,1,Unknown,3.0
+309189,Orion Avenue,13.001137938818005,77.63254,Bengaluru,2,CCS (Type 2),60.0
+173082,Tata Fast Charger,12.952438850806772,77.63973152758626,Bangalore,1,CCS (Type 2),22.0
+309297,Divyashree Greens,12.952724425242494,77.64085233195198,Bengaluru,1,CCS (Type 2),60.0
+103612,Ather Grid Point - Patel's Inn,13.0212463,77.5980284,Bengaluru,1,Unknown,3.0
+107668,AtherGrid Go Native Cafe,12.9224636436796,77.5846883396955,Bangalore,1,Unknown,2.0
+308799,"Prerana Motors, Rajaji Nagar",12.99935,77.54971,Bengaluru,2,CCS (Type 2),25.0
+308800,Orion Mall Outside,13.009553121997012,77.55461112998876,Bengaluru,3,CCS (Type 2),30.0
+308801,Orion Brigade Gateway,13.01105,77.55471,Bengaluru,2,CCS (Type 2),60.0
+308802,Sheraton Grand Bangalore Hotel at Brigade Gateway,13.01275,77.55504,Bengaluru,1,CCS (Type 2),30.0
+309274,BESCOM Byatarayanapura,12.950278857508295,77.54055692747397,Bengaluru,1,CCS (Type 2),15.0
+308810,Kabra Excelsior,12.92786,77.63306,Bengaluru,2,CCS (Type 2),24.0
+103609,Ather Grid Point - Caf Eleven,12.9233342441394,77.5548753083467,Bengaluru,1,Unknown,3.0
+103611,Ather Grid Point - Chapter One,13.0323019,77.5697127,Bengaluru,1,Unknown,3.0
+308731,Shell Recharge Mysore Road,12.94696,77.53247,Bengaluru,4,CCS (Type 2),120.0
+309351,Lithium Charging Station,13.014903182800126,77.6462047089708,Bengaluru,1,CCS (Type 2),30.0
+308891,Shell Recharge Old Madras Road,12.9923,77.65942,Bengaluru,3,CCS (Type 2),120.0
+309299,"Bengaluru One, Old Airport Road",12.95925146155301,77.6627608005785,Bengaluru,1,CCS (Type 2),25.0
+308807,RMZ Infinity,12.99365,77.66045,Bengaluru,1,CCS (Type 2),60.0
+309285,The Pavilion 2,12.90375,77.60136,Bengaluru,3,CCS (Type 2),150.0
+308808,Grand Mercure Bengaluru,12.99267,77.66117,Bengaluru,1,Type 2 (Tethered Connector) ,22.0
+309283,Anant Cars Bannerghatta Road,12.90302,77.60159,Bengaluru,1,CCS (Type 2),30.0
+308734,Shell Recharge Yeshwantpur,13.02499,77.54759,Bengaluru,2,CCS (Type 2),120.0
+309278,"Key Motors, Kanakapura Main Road",12.90401,77.57358,Bengaluru,2,CCS (Type 2),25.0
+309220,"Adishakti Cars, Hebbal",13.04291,77.60927,Bengaluru,2,CCS (Type 2),25.0
+308758,KEVAL Charging Station,13.0001,77.52435,Bengaluru,1,CCS (Type 2),25.0
+308663,MEI EV charging hub,13.026816255694186,77.54261284631212,Bengaluru,1,CCS (Type 2),30.0
+309190,Sixth Gear Cars,13.046755410837207,77.59123644794158,Bengaluru,1,CCS (Type 2),60.0
+309300,Divija EV charging Station,12.918010619982525,77.64926514630082,Bengaluru,1,CCS (Type 2),25.0
+308798,Taj Yeshwantpur,13.028822486015997,77.54032150168894,Bengaluru,1,CCS (Type 2),30.0
+308903,Shell Recharge Yelachenahalli,12.89719,77.57071,Bengaluru,3,CCS (Type 2),120.0
+308923,ibis Bengaluru Hosur Road,12.90073,77.63203,Bengaluru,1,CCS (Type 2),60.0
+309188,Gokulam Grand Hotel & Spa,13.04204,77.55465,Bengaluru,2,CCS (Type 2),25.0
+309187,Elements Mall,13.04612,77.6269,Bengaluru,3,CCS (Type 2),150.0
+309298,KTC Legacy Charging Station,12.945761639147051,77.67413004669817,Bangalore,4,CCS (Type 2),60.0
+309281,"Key Motors, Bannerghatta Road",12.88912,77.59736,Bengaluru,1,CCS (Type 2),24.0
+308922,Blusmart Charging Station (HSR Hub),12.90212,77.64191,Bengaluru,4,CCS (Type 2),60.0
+103607,Ather Grid Point - Fab Cafe,12.9339420487577,77.517451890213,Bengaluru,1,Unknown,3.0
+309309,DoubleTree Suites by Hilton Bengaluru Outer Ring Road,12.919111753741149,77.66515519490173,Bengaluru,1,CCS (Type 2),60.0
+309328,Forum South Bengaluru,12.88919162512768,77.56343684144673,Bengaluru,6,Type 2 (Tethered Connector) ,7.4
+309277,BESCOM Rajarajeshwari Nagar,12.92905,77.514789,Bengaluru,1,CCS (Type 2),50.0
+308889,Shell Recharge Thanisandra,13.05367,77.63073,Bengaluru,2,CCS (Type 2),120.0
+308901,Shell Recharge Haralur,12.91293,77.66542,Bengaluru,1,CCS (Type 2),120.0
+309302,"Prerana Motors, Hongasandra",12.8912,77.63829,Bengaluru,2,CCS (Type 2),25.0
+309350,MG Motor B Narayanapura,12.99577,77.6847,Bengaluru,1,CCS (Type 2),50.0
+308732,Jio BP Pulse,12.98931,77.50062,Bengaluru,1,CCS (Type 2),60.0
+508923,Sobha Corporate Office,12.932292,77.681965,,1,Type 2 (Tethered Connector) ,7.0
+309301,Pratham Motors,12.89388,77.65157,Bengaluru,1,CCS (Type 2),60.0
+309279,Royal Meenakshi Mall,12.8759,77.59583,Bengaluru,1,CCS (Type 2),60.0
+309310,Courtyard by Marriott,12.928234378881882,77.68218794687056,Bengaluru,1,CCS (Type 2),60.0
+308811,Novotel Bengaluru Outer Ring Road,12.9299,77.68317,Bengaluru,1,Type 2 (Tethered Connector) ,22.0
+308890,Shell Recharge TC Palya,13.02234,77.67867,Bengaluru,2,CCS (Type 2),120.0
+502292,MobiLane Ecospace,12.9249701,77.68147802,Bengaluru,1,Unknown,
+309316,Exora Business Park,12.94329,77.69229,Bengaluru,1,CCS (Type 2),60.0
+308899,Shell Recharge Prestige Tech Park,12.94269,77.69235,Bengaluru,2,CCS (Type 2),30.0
+188200,Hosa Road,12.911521506082025,77.67629825827191, Chikkanayakanahalli,1,Type 2 (Tethered Connector) ,3.3
+309311,The Bay at Ecoworld,12.921003663939288,77.68539425864924,Bengaluru,1,CCS (Type 2),80.0
+308812,RMZ EcoWorld,12.92542,77.68788,Bengaluru,1,CCS (Type 2),50.0
+502295,MobiLane The Bay at Ecoworld,12.92096727,77.68547587,Bengaluru,1,Unknown,80.0
+309312,RMZ Eco World,12.92099415205729,77.6860545556384,Bengaluru,1,CCS (Type 2),50.0
+309315,Aloft Bengaluru Outer Ring Road ,12.93674468018763,77.69488851137544,Bengaluru,1,CCS (Type 2),60.0
+309303,"More Hypermarket, Hosur Road",12.88014,77.64592,Bengaluru,1,CCS (Type 2),60.0
+309349,Trifecta Addatto,12.994305942257284,77.69929493060977,Bengaluru,2,CCS (Type 2),60.0
+308900,Shell Recharge Marathahalli,12.94285,77.69782,Bengaluru,3,CCS (Type 2),120.0
+308678,Akshaya Motors Mercedes-Benz,12.923963230811792,77.49720824597415,Bengaluru,1,CCS (Type 2),90.0
+309317,"Jio-BP Pulse Hub, Marathalli",12.95179,77.70207,Bengaluru,11,CCS (Type 2),60.0
+103610,Ather Grid Point - Royal Airawat Residency,12.9222872,77.4954903,Bengaluru,1,Unknown,3.0
+308813,Metropolis Gurukrupa Apartment,12.87479,77.64694,Bengaluru,1,Type 2 (Tethered Connector) ,7.4
+309304,Metropolis Gurukrupa,12.87544,77.64835,Bengaluru,2,CCS (Type 2),60.0
+308898,Shell Recharge Bagmane Solarium,12.9717,77.7075,Bengaluru,1,CCS (Type 2),30.0
+309313,Big Pitcher Sarjapur Road,12.90986,77.68856,Bengaluru,1,CCS (Type 2),60.0
+308896,Shell Recharge Brookfield,12.982973492700651,77.7080860046741,Bengaluru,3,CCS (Type 2),120.0
+309347,BMW Deutsche Motoren,12.984136068485071,77.70811153054012,Bengaluru,2,CCS (Type 2),50.0
+309345,"Fairfield by Marriott, Mahadevapura",12.981842444072356,77.7086328330862,Bengaluru,1,CCS (Type 2),30.0
+309348,Epitome KIA Whitefield,12.985769101393643,77.70856232742358,Bengaluru,1,CCS (Type 2),150.0
+309346,Lithium Urban Tech Pvt Ltd,12.98306,77.70906,Bengaluru,2,CCS (Type 2),60.0
+308917,Blusmart Charging Station (Gottigere Hub),12.85845,77.58721,Bengaluru,2,CCS (Type 2),60.0
+309305,"Kropex Auto, Hosur Road",12.87194,77.65095,Bengaluru,2,CCS (Type 2),25.0
+309314,Bellandur Charging Hub,12.92924,77.70305,Bengaluru,10,CCS (Type 2),60.0
+309344,Prestige Technostar,12.972600290996027,77.71145680417794,Bengaluru,1,CCS (Type 2),60.0
+308662,Shell Recharge Tumkur Road,13.046725564235746,77.50216038004966,Bengaluru,1,CCS (Type 2),120.0
+308733,VST Central KIA,13.05335,77.50798,Bengaluru,1,CCS (Type 2),150.0
+308888,Shell Recharge Hennur,13.07536,77.6524,Bengaluru,2,CCS (Type 2),120.0
+309343,KHT Brookefield,12.96712414548928,77.71696159433418,Bengaluru,2,CCS (Type 2),25.0
+309342,JLR Shakti Auto,12.963582255188314,77.7173795341912,Bengaluru,2,CCS (Type 2),25.0
+309341,goEgo EV CHARGE PARK,12.96316,77.71814,Bengaluru,1,CCS (Type 2),60.0
+308795,IKEA Bengaluru,13.04917,77.49967,Bengaluru,1,Type 2 (Tethered Connector) ,7.2
+309306,MG Motor Hosur Road,12.86563,77.65753,Bengaluru,2,CCS (Type 2),50.0
+308904,Shell Recharge Kanakapura Road,12.86276,77.53146,Bengaluru,1,CCS (Type 2),120.0
+508925,Adarsh Green Apartments,13.095707,77.610903,,3,Type 2 (Tethered Connector) ,7.0
+308921,"La Maison Citroën Hosur Road, Bengaluru",12.86308,77.65922,Bengaluru,1,CCS (Type 2),60.0
+309339,DivyaSree LitBox,12.97098961190295,77.7250244631253,Bengaluru,1,CCS (Type 2),60.0
+311451,Metro Cash&Carry,12.8610658784023,77.66099764437081,Bengaluru,1,Type 2 (Tethered Connector) ,7.4
+308885,Shell Yelahanka New Town,13.098,77.5658,Bengaluru,1,CCS (Type 2),120.0
+309338,Marriott Hotel Whitefield,12.979262407836174,77.72744812682743,Bengaluru,1,CCS (Type 2),30.0
+309337,Nexus Shantiniketan Jio-BP,12.989040024957774,77.72758362256013,Bengaluru,1,CCS (Type 2),60.0
+309336,Nexus Shantiniketan - Statiq,12.989065694796125,77.72760379808074,Bengaluru,7,CCS (Type 2),60.0
+309340,"Jio-bp Pulse Hub, Siddhapura",12.957173268150797,77.72954555409183,Bengaluru,3,CCS (Type 2),60.0
+308920,JioBP Pulse Charging Hub - Electronic City Phase II,12.86462,77.67486,Bengaluru,4,CCS (Type 2),60.0
+309186,Jio BP Charging Hub Chikkagubbi ,13.087848141186939,77.66014774782752,Bengaluru,3,CCS (Type 2),60.0
+309335,Sheraton Grand Bengaluru Whitefield Hotel & Convention Center,12.989215375302493,77.72961910576282,Bengaluru,1,CCS (Type 2),30.0
+308886,Shell Recharge Kogilu Road,13.1043,77.60448,Bengaluru,2,CCS (Type 2),120.0
+309334,Divyasree NR Enclave,12.986347110711023,77.73038387486008,Bengaluru,1,CCS (Type 2),60.0
+308897,Shell Recharge Prestige Shantiniketan,12.992,77.7299,Bengaluru,3,CCS (Type 2),30.0
+308679,Kengeri Charging Hub,12.9055171580421,77.47375007379192,Bengaluru,1,CCS (Type 2),75.0
+311454,Electronic City - BPCL,12.85327,77.6672,Bengaluru,1,CCS (Type 2),30.0
+309333,Park Square Mall,12.987280089618991,77.73628236461366,Bengaluru,1,CCS (Type 2),25.0
+103603,Ather Grid Point - Ascendas Park square mall,12.9872191,77.7364744,Bangalore,1,Unknown,3.0
+309318,Jio-BP Pulse Varthur Hub,12.93979,77.73447,Bengaluru,5,CCS (Type 2),60.0
+309332,Taj Vivanta Whitefield,12.98720238234145,77.7373662993079,Bengaluru,2,CCS (Type 2),30.0
+103604,"International Tech Park, Bangalore",12.985420937588,77.7385128788513,Bangalore,1,Unknown,3.0
+309076,Hotel Kadamba Veg,12.9019345,77.4689096,Bengaluru,1,CCS (Type 2),24.0
+311452,BloomSuites,12.839685411251565,77.65952566488613,Bengaluru,1,CCS (Type 2),30.0
+309185,Jaguar Land Rover Cars Airport Road,13.11756,77.60923,Bengaluru,3,CCS (Type 2),50.0
+311453,Monk Mansion,12.841088856819354,77.66441658541129,Bengaluru,2,CCS (Type 2),60.0
+309330,Nexus Whitefield Statiq,12.960076399887868,77.74719391663552,Bengaluru,7,CCS (Type 2),60.0
+309329,Nexus Whitefield Jio-BP,12.960076399887868,77.74719391663552,Bengaluru,2,CCS (Type 2),60.0
+103615,Ather Grid Point - Herbs and Spices,12.9679246469975,77.7497762255596,Bengaluru,1,Unknown,3.0
+308918,Blusmart Charging Station Electronic City Phase 1,12.82734,77.65552,Bengaluru,4,CCS (Type 2),60.0
+309331,The Zinc By Fern Hotels,12.97757571689229,77.7570895079167,Bengaluru,1,CCS (Type 2),24.0
+308895,Shell Recharge Avalahalli,13.04041,77.74131,Bandapura,3,CCS (Type 2),120.0
+309148,Kia India Training Center,13.05242,77.74675,Bengaluru,1,CCS (Type 2),150.0
+308894,Shell Recharge Budigere,13.06226,77.74273,,3,CCS (Type 2),120.0
+309149,Orion Uptown Mall,13.05515,77.7638,Bengaluru,2,CCS (Type 2),60.0
+309158,Jio BP Chikkajala,13.16554,77.62933,Bengaluru,1,CCS (Type 2),60.0
+508924,DS Max Sky Fields,12.954683,77.801405,,1,Type 2 (Tethered Connector) ,7.0
+309352,Miracle Dhaba,13.08468,77.41488,Bengaluru,1,CCS (Type 2),60.0
+308893,Shell Recharge Mahadeva Kodigehalli,13.15446,77.70277,Bengaluru,1,CCS (Type 2),30.0
+308661,Jio BP Nelamangala,13.086525423479687,77.4084730159021,Arasinakunte,1,CCS (Type 2),60.0
+308919,Jio BP Chandapura,12.79284,77.72766,Bengaluru,1,CCS (Type 2),60.0
+309150,GAIL Gas Station -Tata Power,13.15341,77.72827,Bengaluru,1,CCS (Type 2),30.0

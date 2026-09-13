@@ -1,0 +1,10 @@
+streamlit
+pandas
+joblib
+requests
+folium
+streamlit-folium
+streamlit-js-eval
+geopy
+xgboost
+scikit-learn
