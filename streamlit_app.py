@@ -94,9 +94,9 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-model = joblib.load('/content/drive/MyDrive/ev_project/wait_time_model.pkl')
-station_id_map = joblib.load('/content/drive/MyDrive/ev_project/station_id_map.pkl')
-stations_df = pd.read_csv('/content/drive/MyDrive/ev_project/stations.csv')
+model = joblib.load('wait_time_model.pkl')
+station_id_map = joblib.load('station_id_map.pkl')
+stations_df = pd.read_csv('stations.csv')
 
 OWM_KEY = "7df15b20b925eeefee0266b7051319f4"
 geolocator = Nominatim(user_agent="ev_charge_finder_app_v1")
