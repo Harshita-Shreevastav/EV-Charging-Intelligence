@@ -98,7 +98,7 @@ model = joblib.load('wait_time_model.pkl')
 station_id_map = joblib.load('station_id_map.pkl')
 stations_df = pd.read_csv('stations.csv')
 
-OWM_KEY = "7df15b20b925eeefee0266b7051319f4"
+OWM_KEY = st.secrets["OWM_KEY"]
 geolocator = Nominatim(user_agent="ev_charge_finder_app_v1")
 
 def haversine_distance(lat1, lon1, lat2, lon2):
@@ -140,10 +140,10 @@ st.markdown("<div class='top-bar-wrapper'>", unsafe_allow_html=True)
 top1, top2, top3, top4 = st.columns([0.9, 3, 1, 1.8])
 
 with top1:
-    st.markdown("<div class='brand-full' style='font-size:24px; font-weight:900; color:#0F172A; padding-top:6px; white-space:nowrap;'>⚡ EV Finder</div><div class='brand-icon-only' style='font-size:26px; padding-top:6px;'>⚡</div>", unsafe_allow_html=True)
+    st.markdown("<div class='brand-full' style='font-size:24px; font-weight:900; color:#0F172A; padding-top:2px; white-space:nowrap;'>⚡ EV Finder<div style='font-size:11px; font-weight:600; color:#94A3B8; margin-top:-2px;'>Bengaluru only</div></div><div class='brand-icon-only' style='font-size:26px; padding-top:6px;'>⚡</div>", unsafe_allow_html=True)
 
 with top2:
-    address = st.text_input(" ", placeholder="Search a location in Bangalore...", label_visibility="collapsed")
+    address = st.text_input(" ", placeholder="Search a location in Bengaluru...", label_visibility="collapsed")
 
 with top3:
     search_clicked = st.button("Search", use_container_width=True)
@@ -238,4 +238,25 @@ def show_results(user_lat, user_lon):
 if user_lat is not None and not st.session_state.search_options:
     show_results(user_lat, user_lon)
 elif not st.session_state.search_options:
-    st.markdown("<div style='padding:100px 40px; text-align:center; color:#94A3B8; font-size:14px;'>Search a location above or use current location to get started</div>", unsafe_allow_html=True)
+    st.markdown("""
+    <div style='padding:32px 20px 8px 20px; max-width:820px;'>
+        <div style='font-size:15px; color:#374151; line-height:1.6; margin-bottom:24px;'>
+            Charging your EV shouldn't mean guessing which station has a free slot. 
+            <b>EV Finder</b> looks at real charging stations in Bengaluru and predicts how long you'll likely wait at each one right now — based on time of day, weekday patterns, and weather — so you can head to the station that'll actually save you time.
+        </div>
+        <div style='display:flex; gap:24px; flex-wrap:wrap; margin-bottom:8px;'>
+            <div style='flex:1; min-width:200px;'>
+                <div style='font-size:13px; font-weight:800; color:#7C3AED; margin-bottom:4px;'>1. SHARE YOUR LOCATION</div>
+                <div style='font-size:13px; color:#6B7280;'>Search an address or use your current location</div>
+            </div>
+            <div style='flex:1; min-width:200px;'>
+                <div style='font-size:13px; font-weight:800; color:#7C3AED; margin-bottom:4px;'>2. SEE PREDICTED WAIT TIMES</div>
+                <div style='font-size:13px; color:#6B7280;'>Nearby stations ranked by wait time + distance</div>
+            </div>
+            <div style='flex:1; min-width:200px;'>
+                <div style='font-size:13px; font-weight:800; color:#7C3AED; margin-bottom:4px;'>3. NAVIGATE THERE</div>
+                <div style='font-size:13px; color:#6B7280;'>One tap opens directions in Google Maps</div>
+            </div>
+        </div>
+    </div>
+    """, unsafe_allow_html=True)
