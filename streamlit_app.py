@@ -137,10 +137,10 @@ if 'search_options' not in st.session_state:
     st.session_state.search_options = None
 
 st.markdown("<div class='top-bar-wrapper'>", unsafe_allow_html=True)
-top1, top2, top3, top4 = st.columns([0.9, 3, 1, 1.8])
+top1, top2, top3, top4 = st.columns([1.6, 2.6, 1, 1.8])
 
 with top1:
-    st.markdown("<div class='brand-full' style='font-size:20px; font-weight:900; color:#0F172A; padding-top:4px; white-space:normal; max-width:200px; line-height:1.25;'>🚘 EV Charging Intelligence Platform<div style='font-size:11px; font-weight:600; color:#94A3B8; margin-top:2px;'>Bengaluru</div></div><div class='brand-icon-only' style='font-size:26px; padding-top:6px;'>🚘</div>", unsafe_allow_html=True)
+    st.markdown("<div class='brand-full' style='font-size:19px; font-weight:900; color:#0F172A; padding-top:4px; white-space:normal; max-width:280px; line-height:1.3;'>🚘 EV Charging<br>Intelligence Platform<div style='font-size:11px; font-weight:600; color:#94A3B8; margin-top:3px;'>Bengaluru</div></div><div class='brand-icon-only' style='font-size:26px; padding-top:6px;'>🚘</div>", unsafe_allow_html=True)
 
 with top2:
     address = st.text_input(" ", placeholder="Search a location in Bengaluru...", label_visibility="collapsed")
