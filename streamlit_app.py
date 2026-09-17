@@ -153,14 +153,16 @@ with top4:
 
 st.markdown("</div>", unsafe_allow_html=True)
 if locate_clicked:
-    loc_data = get_geolocation()
+    loc_data = get_geolocation(key=f"geo_{st.session_state.get('geo_attempt', 0)}")
+    st.session_state.geo_attempt = st.session_state.get('geo_attempt', 0) + 1
+    st.write("DEBUG loc_data:", loc_data)
     if loc_data and loc_data.get('coords'):
         st.session_state.user_lat = loc_data['coords']['latitude']
         st.session_state.user_lon = loc_data['coords']['longitude']
         st.session_state.search_options = None
         st.rerun()
     else:
-        st.info("Requesting your location — if a browser permission popup appeared, please allow it, then click the button again.")
+        st.info("Still waiting for location — click the button once more.")
 
 if search_clicked and address:
     locations = geocode_address(address)
