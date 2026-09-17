@@ -11,6 +11,21 @@ A Streamlit application that helps drivers find EV charging stations in Bengalur
 - Include time of day, day of week, and current rain conditions in predictions.
 - Open turn-by-turn directions for a station in Google Maps.
 
+## ML Approach
+
+The platform uses XGBoost regression to predict EV charging
+station wait time.
+
+Features:
+- Station ID
+- Hour of day
+- Day of week
+- Rain condition
+
+Model Performance:
+- MAE: 1.58 minutes
+- RMSE: 3.51 minutes
+
 ## Requirements
 
 - Python 3.10 or newer
