@@ -2,6 +2,9 @@
 
 A Streamlit application that helps drivers find EV charging stations in Bengaluru. Enter an address or share your current location to see nearby stations ranked using predicted wait time and distance.
 
+Live demo
+https://ev-charging-intelligence-gaw8ebnrcrfrml6k8utnad.streamlit.app/
+
 ## Features
 
 - Search for a Bengaluru address with OpenStreetMap geocoding.
