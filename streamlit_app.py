@@ -152,26 +152,30 @@ with top4:
     locate_clicked = st.button("➤ Use my Current Location", use_container_width=True)
 
 st.markdown("</div>", unsafe_allow_html=True)
+if 'requesting_location' not in st.session_state:
+    st.session_state.requesting_location = False
+
 if locate_clicked:
+    st.session_state.requesting_location = True
+
+if st.session_state.requesting_location:
     loc_data = get_geolocation()
     if loc_data and 'error' in loc_data:
         error_code = loc_data['error']['code']
         error_msg = loc_data['error']['message']
+        st.session_state.requesting_location = False
         if error_code == 1:
             st.error("Location permission was denied in the browser. Please allow location access and try again.")
-        elif error_code == 2:
-            st.warning("Your device's position is currently unavailable. Try the Search bar instead.")
-        elif error_code == 3:
-            st.warning("Location request timed out. Please try again.")
         else:
             st.warning(f"Geolocation error: {error_msg}")
     elif loc_data and 'coords' in loc_data:
         st.session_state.user_lat = loc_data['coords']['latitude']
         st.session_state.user_lon = loc_data['coords']['longitude']
         st.session_state.search_options = None
+        st.session_state.requesting_location = False
         st.rerun()
     else:
-        st.info("Waiting for location permission — please allow access if prompted, then click the button again.")
+        st.info("Waiting for your browser's location response...")
 if search_clicked and address:
     locations = geocode_address(address)
     if locations:
