@@ -152,15 +152,15 @@ with top4:
     locate_clicked = st.button("➤ Use my Current Location", use_container_width=True)
 
 st.markdown("</div>", unsafe_allow_html=True)
-
 if locate_clicked:
     loc_data = get_geolocation()
-    if loc_data:
+    if loc_data and loc_data.get('coords'):
         st.session_state.user_lat = loc_data['coords']['latitude']
         st.session_state.user_lon = loc_data['coords']['longitude']
         st.session_state.search_options = None
+        st.rerun()
     else:
-        st.warning("Couldn't get a precise location from your device's GPS/browser. This can happen on desktops or devices without a strong signal — try the Search bar instead for a reliable result.")
+        st.info("Requesting your location — if a browser permission popup appeared, please allow it, then click the button again.")
 
 if search_clicked and address:
     locations = geocode_address(address)
