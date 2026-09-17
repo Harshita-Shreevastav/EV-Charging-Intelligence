@@ -10,7 +10,7 @@ from geopy.geocoders import Nominatim
 from math import radians, sin, cos, sqrt, atan2
 from datetime import datetime
 
-st.set_page_config(page_title="EV Charge Finder", page_icon="🔋", layout="wide")
+st.set_page_config(page_title="EV Charging Intelligence Platform", page_icon="🚘", layout="wide")
 
 st.markdown("""
 <style>
@@ -140,7 +140,7 @@ st.markdown("<div class='top-bar-wrapper'>", unsafe_allow_html=True)
 top1, top2, top3, top4 = st.columns([0.9, 3, 1, 1.8])
 
 with top1:
-    st.markdown("<div class='brand-full' style='font-size:24px; font-weight:900; color:#0F172A; padding-top:2px; white-space:nowrap;'>⚡ EV Finder<div style='font-size:11px; font-weight:600; color:#94A3B8; margin-top:-2px;'>Bengaluru only</div></div><div class='brand-icon-only' style='font-size:26px; padding-top:6px;'>⚡</div>", unsafe_allow_html=True)
+    st.markdown("<div class='brand-full' style='font-size:24px; font-weight:900; color:#0F172A; padding-top:2px; white-space:nowrap;'>🚘 EV Finder<div style='font-size:11px; font-weight:600; color:#94A3B8; margin-top:-2px; white-space:normal; max-width:160px; line-height:1.3;'>EV Charging Intelligence Platform · Bengaluru</div></div><div class='brand-icon-only' style='font-size:26px; padding-top:6px;'>🚘</div>", unsafe_allow_html=True)
 
 with top2:
     address = st.text_input(" ", placeholder="Search a location in Bengaluru...", label_visibility="collapsed")
@@ -152,6 +152,7 @@ with top4:
     locate_clicked = st.button("➤ Use my Current Location", use_container_width=True)
 
 st.markdown("</div>", unsafe_allow_html=True)
+
 if 'requesting_location' not in st.session_state:
     st.session_state.requesting_location = False
 
@@ -176,6 +177,7 @@ if st.session_state.requesting_location:
         st.rerun()
     else:
         st.info("Waiting for your browser's location response...")
+
 if search_clicked and address:
     locations = geocode_address(address)
     if locations:
@@ -255,7 +257,7 @@ elif not st.session_state.search_options:
     st.markdown("""
     <div style='padding:32px 20px 8px 20px; max-width:820px;'>
         <div style='font-size:15px; color:#374151; line-height:1.6; margin-bottom:24px;'>
-            Charging your EV shouldn't mean guessing which station has a free slot. 
+            Charging your EV shouldn't mean guessing which station has a free slot.
             <b>EV Finder</b> looks at real charging stations in Bengaluru and predicts how long you'll likely wait at each one right now — based on time of day, weekday patterns, and weather — so you can head to the station that'll actually save you time.
         </div>
         <div style='display:flex; gap:24px; flex-wrap:wrap; margin-bottom:8px;'>
