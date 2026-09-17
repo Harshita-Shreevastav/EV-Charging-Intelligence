@@ -153,17 +153,25 @@ with top4:
 
 st.markdown("</div>", unsafe_allow_html=True)
 if locate_clicked:
-    loc_data = get_geolocation(key=f"geo_{st.session_state.get('geo_attempt', 0)}")
-    st.session_state.geo_attempt = st.session_state.get('geo_attempt', 0) + 1
-    st.write("DEBUG loc_data:", loc_data)
-    if loc_data and loc_data.get('coords'):
+    loc_data = get_geolocation()
+    if loc_data and 'error' in loc_data:
+        error_code = loc_data['error']['code']
+        error_msg = loc_data['error']['message']
+        if error_code == 1:
+            st.error("Location permission was denied in the browser. Please allow location access and try again.")
+        elif error_code == 2:
+            st.warning("Your device's position is currently unavailable. Try the Search bar instead.")
+        elif error_code == 3:
+            st.warning("Location request timed out. Please try again.")
+        else:
+            st.warning(f"Geolocation error: {error_msg}")
+    elif loc_data and 'coords' in loc_data:
         st.session_state.user_lat = loc_data['coords']['latitude']
         st.session_state.user_lon = loc_data['coords']['longitude']
         st.session_state.search_options = None
         st.rerun()
     else:
-        st.info("Still waiting for location — click the button once more.")
-
+        st.info("Waiting for location permission — please allow access if prompted, then click the button again.")
 if search_clicked and address:
     locations = geocode_address(address)
     if locations:
