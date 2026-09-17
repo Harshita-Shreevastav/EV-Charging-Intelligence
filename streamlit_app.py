@@ -211,7 +211,7 @@ def show_results(user_lat, user_lon):
     map_col, panel_col = st.columns([1.6, 1])
 
     with map_col:
-        m = folium.Map(location=[user_lat, user_lon], zoom_start=13, tiles="CartoDB positron", zoom_control=False)
+        m = folium.Map(location=[user_lat, user_lon], zoom_start=13, tiles="OpenStreetMap", zoom_control=False)
         folium.Marker([user_lat, user_lon], icon=folium.Icon(color="blue", icon="circle", prefix="fa"), tooltip="You").add_to(m)
         for i, row in results_df.iterrows():
             color = "green" if row['Wait'] < 8 else "orange" if row['Wait'] < 15 else "red"
